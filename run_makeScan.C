@@ -8,8 +8,8 @@ makeScan("file2.root", "evt:run:isData:nVert:nTrueInt:rho:nJet40:nBJet40:nMuons1
 makeScan("file1.root", "evt:deltaPhiMin:diffMetMht:mht_pt:mht_phi:met_pt:met_phi:met_genPt:met_genPhi", "file1_scan02.log");
 makeScan("file2.root", "evt:deltaPhiMin:diffMetMht:mht_pt:mht_phi:met_pt:met_phi:met_genPt:met_genPhi", "file2_scan02.log");
 
-makeScan("file1.root", "evt:mt2:mt2_gen:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass", "file1_scan03.log");
-makeScan("file2.root", "evt:mt2:mt2_gen:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass", "file2_scan03.log");
+makeScan("file1.root", "evt:mt2:mt2_gen:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass:pseudoJet2_pt:pseudoJet2_eta:pseudoJet2_phi:pseudoJet2_mass", "file1_scan03.log");
+makeScan("file2.root", "evt:mt2:mt2_gen:pseudoJet1_pt:pseudoJet1_eta:pseudoJet1_phi:pseudoJet1_mass:pseudoJet2_pt:pseudoJet2_eta:pseudoJet2_phi:pseudoJet2_mass", "file2_scan03.log");
 
 makeScan("file1.root", "evt:HLT_HT650:HLT_MET150:HLT_ht350met100", "file1_scan04.log");
 makeScan("file2.root", "evt:HLT_HT650:HLT_MET150:HLT_ht350met100", "file2_scan04.log");
